@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../../assets/cafe photos/cafe6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .header {
+    background-color: purple;
+    padding: 20px;
+    text-align: right;
+  }
+
+  .header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .container {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .cafe-name {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 20px;
+  }
+  .best-seller{
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 20px;
+
+  }
+
+  .menu-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5bcde;
+  }
+
+  .menu-item h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .menu-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }

@@ -1,0 +1,32 @@
+/* view-orders.component.css */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #f9f9f9; /* Background color */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Heading color */
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th,
+  .order-table td {
+    border: 1px solid #ddd; /* Border color */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .order-table th {
+    background-color: #ff6347; /* Header background color */
+    color: #fff; /* Header text color */
+  }
+  

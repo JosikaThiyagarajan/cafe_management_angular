@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color:purple; /* Purple color */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 48%; /* Adjusted width for spacing */
+  padding: 10px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.register-button {
+  background-color: #3f51b5; /* Blue color */
+}
+
+button.register-button:hover {
+  background-color: #303f9f; /* Darker blue color */
+}
+
+button.close-button {
+  background-color: #d32f2f; /* Red color */
+}
+
+button.close-button:hover {
+  background-color: #b71c1c; /* Darker red color */
+}

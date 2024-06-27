@@ -1,0 +1,110 @@
+<body>
+  <div class="container">
+    <div class="cafe-name">
+      Latte Italiano Cafe
+    </div>
+    <h1>Menu</h1>
+
+    <div class="menu-grid">
+      <div class="menu-item" (click)="addToCart('Cinnamon Dolce Latte')">
+        <img src="../../assets/cafe photos/cinnamon dolce latte.jpg" alt="Cinnamon Dolce Latte">
+        <div class="menu-item-title">Cinnamon Dolce Latte</div>
+        <div class="menu-item-prices">
+          <div>Price: 120</div>
+          <input type="number" id="cinnamonDolceLatteQty" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="menu-item" (click)="addToCart('Flat White')">
+        <img src="../../assets/cafe photos/flat white.jpg" alt="Flat White">
+        <div class="menu-item-title">Flat White</div>
+        <div class="menu-item-prices">
+          <div>Price: 110</div>
+          <input type="number" id="flatWhiteQty" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="menu-item" (click)="addToCart('Espresso')">
+        <img src="../../assets/cafe photos/espresso.jpg" alt="Espresso">
+        <div class="menu-item-title">Espresso</div>
+        <div class="menu-item-prices">
+          <div>Price: 130</div>
+          <input type="number" id="espressoQty" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="menu-item" onclick="showDetails('Cold Brew')">
+        <img src="../../assets/cafe photos/cold brew.jpg" alt="Cold Brew">
+        <div class="menu-item-title">Cold Brew</div>
+        <div class="menu-item-prices">
+          <div>Price: 170</div>
+          <input type="number" id="coldBrewQty" min="1" value="1">
+        </div>
+      </div>
+
+
+      <div class="menu-item" onclick="showDetails('Java Chip Frauppucino')">
+        <img src="../../assets/cafe photos/java chip frauppucino.png" alt="Java Chip Frauppucino">
+        <div class="menu-item-title">Java Chip Frauppucino</div>
+        <div class="menu-item-prices">
+          <div>Price: 135</div>
+          <input type="number" id="javaChipFrauppucinoQty" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="menu-item" onclick="showDetails('Mocha Frauppucino')">
+        <img src="../../assets/cafe photos/mocha frauppucino.png" alt="Mocha Frauppucino">
+        <div class="menu-item-title">Mocha Frauppucino</div>
+        <div class="menu-item-prices">
+          <div>Price: 160</div>
+          <input type="number" id="mochaFrauppucinoQty" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="menu-item" onclick="showDetails('Cappuccino')">
+        <img src="../../assets/cafe photos/cappucino.jpg" alt="Cappuccino">
+        <div class="menu-item-title">Cappuccino</div>
+        <div class="menu-item-prices">
+          <div>Price: 140</div>
+          <input type="number" id="cappucinoQty" min="1" value="1">
+        </div>
+      </div>
+
+      <div class="menu-item" onclick="showDetails('Caffe Mocha')">
+        <img src="../../assets/cafe photos/caffe mocha.jpg" alt="Caffe Mocha">
+        <div class="menu-item-title">Caffe Mocha</div>
+        <div class="menu-item-prices">
+          <div>Price: 140</div>
+          <input type="number" id="caffeMochaQty" min="1" value="1">
+        </div>
+      </div>
+      <div class="menu-item" onclick="showDetails('Caramel Mochatio')">
+        <img src="../../assets/cafe photos/caramel mochatia.png" alt="Caramel Mochatio">
+        <div class="menu-item-title">Caramel Mochatio</div>
+        <div class="menu-item-prices">
+          <div>Price: 130</div>
+          <input type="number" id="caramelMochatioQty" min="1" value="1">
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="button-container">
+      <button class="button blue" (click)="submitSelectedItemsToCart()">Add Selected Items to Cart</button>
+      <a routerLink="/userdash" class="button red">Close</a>
+    </div>
+    
+    
+  </div>
+  <div class="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items">
+    </ul>
+  </div>
+
+  <script>
+    function showDetails(name) {
+      alert("You selected: " + name);
+    }
+  </script>
+</body>

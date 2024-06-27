@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../../assets/cafe photos/cafe3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  background-color: lavender;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: purple;
+  padding-bottom: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.button img {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+.close-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: red;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: darkred;
+}

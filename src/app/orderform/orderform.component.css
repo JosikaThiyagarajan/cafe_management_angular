@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a1b9a, #9c27b0); /* Purple gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+
+  h1 {
+    text-align: center;
+    color:violet; /* White color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+  }
+
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 items in a row */
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 200px; /* Limit the width of each menu item */
+  }
+
+  .menu-item:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Bigger shadow on hover */
+  }
+
+  .menu-item img {
+    width: 120px; /* Adjust icon size as needed */
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Rounded corners for images */
+  }
+
+  .menu-item-title {
+    text-align: center;
+    font-weight: bold;
+    color: #6a1b9a; /* Purple color */
+  }
+
+  .cafe-name {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    font-style: italic;
+    color: #fff; /* White color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+  }
+
+  .menu-item-prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6a1b9a; /* Purple color */
+  }
+  .button-container {
+    /* Center the button container horizontally */
+    text-align: center;
+    margin-top: 20px; /* Add some space between the menu and buttons */
+  }
+  
+  .button {
+    /* Your existing button styles */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
+  .button + .button {
+    margin-left: 10px; /* Add spacing between buttons */
+  }

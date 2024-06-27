@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../../assets/cafe photos/cafe7.jpg');
+  background-color: #f2f2f2;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color:cornsilk;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: #6a1b9a; /* Purple color */
+}
+
+.cafe-name {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  font-style: italic; /* Italized */
+  color: #6a1b9a; /* Purple color */
+}
+
+.admin-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.admin-icon img {
+  width: 80px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color:rgba(255, 255, 255, 0.8); 
+  font-weight: bolder;
+  border-radius: 5px;
+  color:blue;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+.Close {
+  width: 100%;
+  padding: 10px;
+  background-color: red; 
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.Close:hover {
+  background-color: darkred; 
+}
+
