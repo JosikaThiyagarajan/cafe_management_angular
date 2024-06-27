@@ -1,0 +1,16 @@
+{
+  "routes": [
+    "/",
+    "/admindash",
+    "/adminlogin",
+    "/cart-page",
+    "/listusers",
+    "/loginform",
+    "/navigationform",
+    "/orderform",
+    "/products",
+    "/register",
+    "/userdash",
+    "/userlogin"
+  ]
+}
